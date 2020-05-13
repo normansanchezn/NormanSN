@@ -11,6 +11,43 @@ span{
     color: #5e92f3;
 }
 
+.container{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.header-content-left{
+    float: right;
+}
+
+header{
+    justify-content: center;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 70px;
+    padding-top: 25px;
+    
+}
+
 .title {
     position: absolute;
     top: 50%;
@@ -22,6 +59,15 @@ p, .lead{
     top: 57%;
     font-size: 40px;
     color: #000;
+}
+
+.nav-text{
+    position: relative;
+    justify-content: center;
+}
+
+.navigation, .nav-text{
+    float: right;
 }
 
 @font-face {
