@@ -1,8 +1,38 @@
 body{
-    background: #000;
-    font-family: 'Raleway', sans-serif;
+    background: #fff;
 }
 
 p, h1{
-    color: aliceblue;
+    color: #000;
+    font-family: Roboto, sans-serif;
+}
+
+span{
+    color: #5e92f3;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+}
+
+p, .lead{
+    position: absolute;
+    top: 57%;
+    font-size: 40px;
+    color: #000;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/2UX7WLTfW3W8TclTUvlFyQ.woff) format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(http://themes.googleusercontent.com/static/fonts/roboto/v8/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
